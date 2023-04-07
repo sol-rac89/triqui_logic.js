@@ -6,7 +6,7 @@ cuadrados.forEach(cuadrado=>{
         if(cuadrado.textContent===""){
            cuadrado.textContent = jugadorActual;
            cuadrado.setAttribute("jugador-data", jugadorActual );
-           jugadorActual = jugadorActual === jugadores[0] ? jugadores[1] : jugadores[0]
+           jugadorActual = jugadorActual === jugadores[0] ? jugadores[1] : jugadores[2]
         }
     }
     );
